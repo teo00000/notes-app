@@ -1,0 +1,8 @@
+app-notes-page {
+  display: block;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  background-color: rgb(253, 253, 214)
+}

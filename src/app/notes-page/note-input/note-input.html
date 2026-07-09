@@ -1,0 +1,7 @@
+<div class="input-container">
+  <div>
+    <input #input type="text">
+    <button (click)="onAddNote(input.value)">Add note</button>
+  </div>
+  <input id="searchInput" #searchInput type="text" (input)="onSearch(searchInput.value)">
+</div>

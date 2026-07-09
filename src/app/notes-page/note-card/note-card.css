@@ -1,0 +1,15 @@
+.note-card {
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+button {
+  background-color: brown;
+  color: white;
+  border: red;
+  border-radius: 8px;
+  width: 5rem;
+  height: 1.3rem;
+}

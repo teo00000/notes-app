@@ -1,0 +1,9 @@
+<app-note-input
+  (search)="onSearch($event)"
+  (addNote)="onAddNote($event)"
+></app-note-input>
+
+<app-note-list
+  [notes]="(notes$ | async) || []"
+  (delete)="onDelete($event)"
+></app-note-list>
